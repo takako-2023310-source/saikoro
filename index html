@@ -19,6 +19,5 @@
   <button slot="ar-button">ARで表示</button>
 </model-viewer>
 </body>
-</html
->
+</html>
     
