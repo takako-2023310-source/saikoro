@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>saikoroAR</title>
+  <script type="module"
+    src="https://unpkg.com/@google/model-viewer@latest/dist/model-viewer.min.js"></script>
+</head>
+  <body style=",margin:0; padding:0">
+     <model-viewer
+        src="saikoro.glb"
+        ios-src="https://takako-2023310-source.github.io/saikoro/saikoroAR.usdz"
+  alt="saikoro 3D"
+  ar-modes="webxr scene-viewer quick-look"
+  auto-rotate
+  camera-controls
+  style="width:100vw; height:100vh"
+  camera-target="0m 0m 0m">
+  <button slot="ar-button">ARで表示</button>
+</model-viewer>
+</body>
+</html>
+    
